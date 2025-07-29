@@ -56,7 +56,13 @@ Example:
 github-pr-fetcher -r "microsoft/vscode,microsoft/TypeScript"
 ```
 
-This command will fetch and display the five most recent merged pull requests from the `develop` branch of the specified repositories.
+This command will fetch and display the five most recent merged pull requests from the `main` branch of the specified repositories. To specify the branch, say `develop`, do so like this
+
+```
+github-pr-fetcher -r "microsoft/vscode,microsoft/TypeScript" -b "develop"
+```
+
+
 
 ## License
 
